@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zillow: Real Estate</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <div class="navbar align-items-center justify-content-evenly">
+      <div class="marginLeft">
+        <a href="#" class="marginRight">Buy</a>
+        <a href="#" class="marginRight">Rent</a>
+        <a href="#" class="marginRight">Sell</a>
+        <a href="#" class="marginRight">Home Loans</a>
+        <a href="#" class="marginRight">Agent finder</a>
+      </div>
+      <div class="d-inline-flex p-2 align-items-center">
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Flogosandtypes.com%2Fwp-content%2Fuploads%2F2019%2F08%2Fzillow.png%3Ffit%3D2000%252C2000%26ssl%3D1&f=1&nofb=1&ipt=9220983c7df3bd12a27e9626e34b21c143802f15dc9083639abc4ce276b8ff8e&ipo=images"
+          alt="Logo"
+          id="logo"
+        />
+        <h2 class="text-primary">Zillow</h2>
+      </div>
+      <div class="marginRight">
+        <a href="#" class="marginRight">Manage Rentals</a>
+        <a href="#" class="marginRight">Advertise</a>
+        <a href="#" class="marginRight">Help</a>
+        <a href="#" class="marginRight">Sign in</a>
+      </div>
+    </div>
+
+    <!-- search box div -->
+    <div class="searchboxDiv text-center">
+      <div class="d-inline-flex p-2 grid gap-3">
+        <h3 class="text-light">Agents.</h3>
+        <h3 class="text-light">Tours.</h3>
+        <h3 class="text-light">Loans.</h3>
+        <h3 class="text-light">Homes.</h3>
+      </div>
+      <div id="searchdiv" class="">
+        <input
+          type="text"
+          placeholder="Enter an address, neighborhood, city, or zipcode"
+          id="searchbar"
+        />
+        <img src="assets/search.png" alt="Search icon" id="searchIcon" />
+      </div>
+    </div>
+
+    <!-- trending homes in  -->
+    <div class="row1 listingsRow">
+      <div class="d-inline-flex p-2 justify-content-between rowauto">
+        <div>
+          <h5>Homes For You</h5>
+          <p>Popular listings</p>
+        </div>
+        <div class="d-inline-flex p-2 justify-content-between">
+          <button class="scrollBtn" id="btnLeft" onclick="scroll('#rowToMove')">
+            <
+          </button>
+          <button
+            class="scrollBtn"
+            id="btnRight"
+            onclick="scroll('#rowToMove')"
+          >
+            >
+          </button>
+        </div>
+      </div>
+      <div class="d-inline-flex p-2 listingsRow" id="rowToMove">
+        <div class="listing">
+          <img
+            src="https://photos.zillowstatic.com/fp/5e84a9a49b0312af50ca945f6654db11-cc_ft_768.webp"
+            alt=""
+          />
+          <h3>$425,000</h3>
+          <p>4 bds | 3 ba | 1,952 sqft | House for sale</p>
+          <p>704 Providence Rd, Baltimore, MD 21286</p>
+        </div>
+        <div class="listing">
+          <img
+            src="https://photos.zillowstatic.com/fp/61a058a8623f54a1fc366f8d7b4109ea-cc_ft_768.webp"
+            alt=""
+          />
+          <h3>$550,000</h3>
+          <p>4 bds | 3 ba | 2,824 sqft | House for sale</p>
+          <p>420 Hillen Rd, Towson, MD 21286</p>
+        </div>
+        <div class="listing">
+          <img
+            src="https://photos.zillowstatic.com/fp/caefe19721e2914ef3c6bd6fab4e22c3-cc_ft_768.webp"
+            alt=""
+          />
+          <h3>$550,000</h3>
+          <p>4 bds | 3 ba | 3,240 sqft | House for sale</p>
+          <p>904 CrestWick Rd, Baltimore, MD 21286</p>
+        </div>
+        <div class="listing">
+          <img
+            src="https://photos.zillowstatic.com/fp/6d9e27e2a5bd98f88053c4695cfaaaf2-cc_ft_768.webp"
+            alt=""
+          />
+          <h3>$774,800</h3>
+          <p>4 bds | 4 ba | 2,998 sqft | House for sale</p>
+          <p>900 E Seminary Ave, Towson, MD 21286</p>
+        </div>
+        <div class="listing">
+          <img
+            src="https://photos.zillowstatic.com/fp/99fd9a39371e565fe7305185e78ee2cf-cc_ft_768.webp"
+            alt=""
+          />
+          <h3>$349,950</h3>
+          <p>3 bds | 3 ba | 1,176 sqft | House for sale</p>
+          <p>28 Willow Ave, Towson, MD 21286</p>
+        </div>
+        <div class="listing">
+          <img
+            src="https://photos.zillowstatic.com/fp/c0c321d8fbe783c7c606e39e4c49702b-cc_ft_768.webp"
+            alt=""
+          />
+          <h3>$749,000</h3>
+          <p>4 bds | 4 ba | 3,380 sqft | House for sale</p>
+          <p>28 Willow Ave, Towson, MD 21286</p>
+        </div>
+        <div class="listing">
+          <img
+            src="https://photos.zillowstatic.com/fp/2c8093978066d2d12b8b5bd7ffeeee08-cc_ft_768.webp"
+            alt=""
+          />
+          <h3>$650,000</h3>
+          <p>4 bds | 4 ba | 3,325 sqft | House for sale</p>
+          <p>1209 Limekiln Rd, Baltimore, MD 21286</p>
+        </div>
+        <div class="listing">
+          <img
+            src="https://photos.zillowstatic.com/fp/f6f26e0ce9f2e52606ca7915f5417851-cc_ft_384.webp"
+            alt=""
+          />
+          <h3>$410,000</h3>
+          <p>4 bds | 2 ba | 1,377 sqft | House for sale</p>
+          <p>302 Brook Rd, Towson, MD 21286</p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

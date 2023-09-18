@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.marginRight {
+  margin-right: 20px;
+  text-decoration: none;
+}
+.marginLeft {
+  margin-left: 20px;
+}
+/* Nav */
+
+.navbar {
+  height: 76px;
+}
+#logo {
+  height: 60px;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar h2 {
+  font-weight: bolder;
+}
+
+.searchboxDiv {
+  background-image: url("https://www.zillowstatic.com/bedrock/app/uploads/sites/5/2023/07/1920w_nationalbrand.webp");
+  background-size: cover;
+  padding-top: 85px;
+  padding-bottom: 160px;
+}
+
+#searchIcon {
+  height: 20px;
+  margin-left: 175px;
+}
+
+#searchbar {
+  border-width: 0px;
+  height: 60px;
+  width: 400px;
+}
+
+#searchdiv {
+  border: 2px solid black;
+  background-color: white;
+  width: 630px;
+  margin-left: 750px;
+}
+
+.listing img {
+  height: 135px;
+  width: 260px;
+}
+
+/* Main */
+
+.scrollBtn {
+  text-align: center;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+.row1 {
+  border: 2px solid black;
+  width: 1000px;
+  height: 400px;
+  margin-left: 600px;
+  margin-top: 30px;
+}
+
+.listingsRow {
+  overflow: auto;
+}
+
+.rowauto {
+  width: 1000px;
+}
