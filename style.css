@@ -1,6 +1,8 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: sans-serif;
+  font-weight: lighter;
 }
 
 .marginRight {
@@ -24,7 +26,7 @@
 }
 
 .navbar h2 {
-  font-weight: bolder;
+  font-weight:750;
 }
 
 .searchboxDiv {
@@ -46,7 +48,7 @@
 }
 
 #searchdiv {
-  border: 2px solid black;
+  border-radius: 5px;
   background-color: white;
   width: 630px;
   margin-left: 750px;
@@ -67,20 +69,92 @@
   margin-left: 10px;
   margin-right: 10px;
   background-color: white;
+  font-weight: bold;
 }
 
 .row1 {
-  border: 2px solid black;
   width: 1000px;
   height: 400px;
-  margin-left: 600px;
+  margin-left: 550px;
   margin-top: 30px;
 }
 
 .listingsRow {
-  overflow: auto;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  -ms-overflow-style: none;
+  scroll-snap-align: center;
+  scrollbar-width: none;
+  gap: 20px;
 }
 
 .rowauto {
   width: 1000px;
 }
+
+#rowToMove h5{
+  margin-top: 8px;
+}
+
+/* End of row 1 */
+
+
+/* Finance/Sell/Rent */
+.moreRec{
+  margin-left: 950px;
+  margin-top: 20px;
+  color: blue;
+  gap: 8px;
+  text-align: center;
+  display: flex;
+}
+
+.financeSellRent{
+  align-items: center;
+  background-color: #F9F9FB;
+  margin-top: 20px;
+  padding: 45px 0px;
+  text-align: center;
+}
+.financeSellRent img{
+  height: 150px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.fsrBtn{
+  border: 1px solid blue;
+  background-color: white;
+  color: blue;
+  margin-top: 20px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  /* position: relative;
+  bottom: -25px; */
+}
+
+.gray{
+  background-color: #F9F9FB;
+}
+
+#fsrDivs{
+  display: flex;
+  gap: 20px;
+}
+
+.startnowDivs{
+  padding: 10px;
+  height: 420px;
+  background-color: white;
+  width: 320px;
+  box-shadow: 1px 1px 3px 0px gray;
+}
+
+.spacing{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.financeSellRent p{
+  margin-bottom: 0px;
+}
+

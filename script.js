@@ -17,6 +17,6 @@
 
 function scroll(element){ 
     var right = document.getElementById('#btnRight')
-    alert('hello')
+    alert('hello') 
     scroll(30,0)
 }
