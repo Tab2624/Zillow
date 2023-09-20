@@ -8,3 +8,16 @@ function scrollToLeft(idToSelect) {
     console.log(element)
     element.scrollLeft -= 500;
 }
+
+var searchItem = ''
+function search(elem){
+    searchItem = elem.value;
+}
+
+function clickSearch(elem){
+    window.open(`https://www.zillow.com/homes/${searchItem}_rb/`)
+}
+
+
+
+

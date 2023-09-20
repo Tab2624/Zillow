@@ -49,6 +49,7 @@
   border-width: 0px;
   height: 60px;
   width: 400px;
+  outline: none;
 }
 
 .aboveSearch{
@@ -64,9 +65,9 @@
 }
 
 .listing{
+  margin-bottom: 5px;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px 0px gray;
-  border: 1px solid lightslategray;
+  box-shadow: 2px 2px 2px  lightgray;
 }
 
 .listing img {
@@ -127,7 +128,7 @@
 
 /* Finance/Sell/Rent */
 .moreRec{
-  color: blue;
+  color: #006AFF;
   margin: 0 auto;
   gap: 8px;
   justify-content: center;
@@ -147,9 +148,9 @@
   margin-top: 20px;
 }
 .fsrBtn{
-  border: 1px solid blue;
+  border: 1px solid #006AFF;
   background-color: white;
-  color: blue;
+  color: #006AFF;
   margin-top: 20px;
   padding: 5px 5px;
   border-radius: 5px;
@@ -196,7 +197,7 @@ ul button{
   margin-left: 10px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-  border: solid blue;
+  border: solid #006AFF;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
@@ -273,4 +274,20 @@ width: 200px;
 .bottomIcons{
   justify-content: center;
   margin-top: 20px;
+}
+
+/* JS Stuff */
+
+.listing:hover{
+  box-shadow: 4px 4px 4px 0px darkgray;
+}
+
+.startnowDivs:hover{
+  transform:scale(1.05);
+  box-shadow: 4px 4px 4px 0px darkgray;
+}
+
+.fsrBtn:hover{
+  background-color: #006AFF;
+  color: white;
 }
