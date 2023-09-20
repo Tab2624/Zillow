@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family:'Times New Roman', Times, serif;
+  font-family:sans-serif
 }
 
 .marginRight {
@@ -109,12 +109,12 @@
   margin-top: 8px;
 }
 
-#rowToMove{
+.rowToMove{
   width: 1000px;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   -ms-overflow-style: none;
-  scroll-snap-align: center;
+  scroll-snap-align: none center;
   scrollbar-width: none;
   gap: 20px;
   margin: 0 auto;
@@ -232,7 +232,7 @@ width: 200px;
 }
 
 #footerImg{
-  margin: 0px auto;
+  margin: 10px auto;
   justify-content: center;
   display: flex;
 }
