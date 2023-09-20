@@ -1,13 +1,14 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family:sans-serif
+  font-family:sans-serif;
 }
 
 .marginRight {
   margin-right: 20px;
   text-decoration: none;
   color: black;
+  font-size: small;
 }
 .marginLeft {
   margin-left: 20px;
@@ -20,14 +21,18 @@
 }
 #logo {
   height: 60px;
+  cursor: pointer;
 }
 
 .navbar a {
   color: black;
 }
 
-.navbar h2 {
-  font-weight:750;
+#titleBlue{
+  font-weight: bolder;
+  margin: 0px;
+  color: #006AFF;
+  cursor: pointer;
 }
 
 .flex{
@@ -42,7 +47,9 @@
 
 #searchIcon {
   height: 20px;
-  margin-left: 175px;
+  margin-left: 75px;
+  /* margin-left: 175px; */
+  cursor: pointer;
 }
 
 #searchbar {
@@ -55,18 +62,23 @@
 .aboveSearch{
   justify-content: center;
   margin: 0 auto;
+  font-weight: bolder;
 }
 
 #searchdiv {
-  border-radius: 5px;
+  border-radius: 3px;
   background-color: white;
-  width: 630px;
+  width: 550px;
   margin: 0 auto;
+}
+
+.listing p{
+  font-size: x-small;
 }
 
 .listing{
   margin-bottom: 5px;
-  border-radius: 5px;
+  border-radius: 3px;
   box-shadow: 2px 2px 2px  lightgray;
 }
 
@@ -74,6 +86,7 @@
   border-radius: 5px;
   height: 135px;
   width: 260px;
+  cursor: pointer;
 }
 
 /* Main */
@@ -125,15 +138,27 @@
 
 /* End of row 1 */
 
-
-/* Finance/Sell/Rent */
+/* More Recommendations */
 .moreRec{
   color: #006AFF;
   margin: 0 auto;
   gap: 8px;
   justify-content: center;
   display: flex;
+  cursor: pointer;
 }
+.moreRec h6{
+  font-size: smaller;
+  margin: 0px;
+  margin-top: 5px;
+}
+
+.moreRec span{
+  text-align: center;
+}
+
+/* Finance/Sell/Rent */
+
 
 .financeSellRent{
   align-items: center;
@@ -249,7 +274,10 @@ width: 200px;
 .zestimates{
   flex-wrap: wrap;
   justify-content: center;
+}
 
+.zestimates:hover a{
+  text-decoration: underline;
 }
 
 .bottomText{
@@ -287,7 +315,22 @@ width: 200px;
   box-shadow: 4px 4px 4px 0px darkgray;
 }
 
-.fsrBtn:hover{
+.startnowDivs:hover .fsrBtn{
   background-color: #006AFF;
   color: white;
 }
+
+
+/* Arrows Test */
+/* .arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  border-radius: 50%;
+} */
