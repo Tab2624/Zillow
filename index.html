@@ -16,40 +16,149 @@
   <body>
     <!-- NavBar -->
     <div class="flex align-items-center justify-content-evenly">
-      <div class="marginLeft">
-        <!-- dropDown1 -->
+
+      <!-- Dropdown1 -->
+      <div id="buyContent" class="dropdown-content" onmouseleave="onmouseLeave('buyContent')">
+        <div class="text-center border-right info"> 
+          <h5>Homes for sale</h5>
+          <ul>
+            <li><a href="#">Homes for sale</a></li>
+            <li><a href="#">Foreclosures</a></li>
+            <li><a href="#">For sale by owner</a></li>
+            <li><a href="#">Open houses</a></li>
+            <li><a href="#">New Construction</a></li>
+            <li><a href="#">Coming Soon</a></li>
+            <li><a href="#">Recent home sales</a></li>
+            <li><a href="#">All homes</a></li>
+        </div>
+        <div class="border-right info text-center">
+          <h5>Recourses</h5>
+          <a href="">Buyers Guide</a>
+          <a href="">Foreclosure center</a>
+          <a href="">Real estate app</a>
+          <a href="">Down payment assistance</a>
+          <a href="">Find a buyer's agent</a>
+        </div>
+      </div>
+      
+      <!-- Dropdown 2 -->
+      <div id="buyContent2" class="dropdown-content" onmouseleave="onmouseLeave('buyContent2')">
+        <div class="text-center border-right info"> 
+          <h5>Rentals</h5>
+          <ul>
+            <li><a href="#">Rental buildings</a></li>
+            <li><a href="#">Apartments for rent</a></li>
+            <li><a href="#">Houses for rent</a></li>
+            <li><a href="#">All rental listings</a></li>
+            <li><a href="#">All rental buildings</a></li>
+        </div>
+        <div class="border-right info text-center">
+          <h5>Renter Hub</h5>
+          <a href="">Contacted rentals</a>
+          <a href="">Your rental</a>
+          <a href="">Messages</a>
+        </div>
+        <div class="border-right info text-center">
+          <h5>Recourses</h5>
+          <a href="">Affordability calculator</a>
+          <a href="">Renters guide</a>
+        </div>
+        </div>
+
+        
+        <!-- Dropdown 3 -->
+        <div id="buyContent3" class="dropdown-content" onmouseleave="onmouseLeave('buyContent3')">
+          <div class="text-center border-right info"> 
+            <h5>Recourses</h5>
+            <ul>
+              <li><a href="#">Explore your options</a></li>
+              <li><a href="#">See your home's Zestimate</a></li>
+              <li><a href="#">CA home values</a></li>
+              <li><a href="#">Sellers guide</a></li>
+            </div>
+            <div class="border-right info text-center">
+              <h5>Selling Options</h5>
+              <a href="">Find a seller's agent</a>
+              <a href="">Post For Sale by Owner</a>
+            </div>
+          </div>
+          
+          <!-- Dropdown 4 -->
+          <div id="buyContent4" class="dropdown-content" onmouseleave="onmouseLeave('buyContent4')">
+            <div class="text-center border-right info"> 
+              <h5>Touring homes & making offers</h5>
+              <ul>
+                <li><a href="#">Discover Zillow Home Loans</a></li>
+                <li><a href="#">See how much you qualify for</a></li>
+                <li><a href="#">Estimate your monthly payment</a></li>
+            </div>
+            <div class="border-right info text-center">
+              <h5>Just getting started</h5>
+              <a href="">Calculate your budget</a>
+              <a href="">Learn about the mortgage process</a>
+            </div>
+          </div>
+
+      <!-- Dropdown 5 -->
+      <div id="buyContent5" class="dropdown-content" onmouseleave="onmouseLeave('buyContent5')">
+        <div class="text-center border-right info"> 
+          <h5>Homes for sale</h5>
+          <ul>
+            <li><a href="#">Homes for sale</a></li>
+            <li><a href="#">Foreclosures</a></li>
+            <li><a href="#">For sale by owner</a></li>
+            <li><a href="#">Open houses</a></li>
+            <li><a href="#">New Construction</a></li>
+            <li><a href="#">Coming Soon</a></li>
+            <li><a href="#">Recent home sales</a></li>
+            <li><a href="#">All homes</a></li>
+        </div>
+        <div class="border-right info text-center">
+          <h5>Recourses</h5>
+          <a href="">Buyers Guide</a>
+          <a href="">Foreclosure center</a>
+          <a href="">Real estate app</a>
+          <a href="">Down payment assistance</a>
+          <a href="">Find a buyer's agent</a>
+        </div>
+      </div>
+
+      <div class="marginLeft flex">
+        <!-- Dropdown 1 -->
         <div class="dropdown">
           <button class="marginRight" id="buyDropdown" onmouseenter="myFunction('buyContent')">
             Buy
           </button>
-          <div id="buyContent" class="dropdown-content" onmouseleave="onmouseLeave('buyContent')">
-            <div class="text-center border-right info"> 
-              <h5>Homes for sale</h5>
-              <ul>
-                <li><a href="#">Homes for sale</a></li>
-                <li><a href="#">Foreclosures</a></li>
-                <li><a href="#">For sale by owner</a></li>
-                <li><a href="#">Open houses</a></li>
-                <li><a href="#">New Construction</a></li>
-                <li><a href="#">Coming Soon</a></li>
-                <li><a href="#">Recent home sales</a></li>
-                <li><a href="#">All homes</a></li>
-            </div>
-            <div class="border-right info text-center">
-              <h5>Recourses</h5>
-              <a href="">Buyers Guide</a>
-              <a href="">Foreclosure center</a>
-              <a href="">Real estate app</a>
-              <a href="">Down payment assistance</a>
-              <a href="">Find a buyer's agent</a>
-            </div>
-          </div>
         </div>
 
-        <!-- <a href="#" class="marginRight">Rent</a>
-        <a href="#" class="marginRight">Sell</a>
-        <a href="#" class="marginRight">Home Loans</a>
-        <a href="#" class="marginRight">Agent finder</a> -->
+        <!-- Dropdown 2 -->
+        <div class="dropdown">
+          <button class="marginRight" id="buyDropdown" onmouseenter="myFunction('buyContent2')">
+            Rent
+          </button>
+        </div>
+
+        <!-- Dropdown3 -->
+        <div class="dropdown">
+          <button class="marginRight" id="buyDropdown" onmouseenter="myFunction('buyContent3')">
+            Sell
+          </button>
+        </div>
+
+        <!-- Dropdown 4 -->
+        <div class="dropdown">
+          <button class="marginRight" id="buyDropdown" onmouseenter="myFunction('buyContent4')">
+            Home Loans
+          </button>
+        </div>
+
+        <!-- Dropdown 5 -->
+        <div class="dropdown">
+          <button class="marginRight" id="buyDropdown" onmouseenter="myFunction('buyContent5')">
+            Agent Finder
+          </button>
+        </div>
+
       </div>
       <div
         class="flex align-items-center"
@@ -106,13 +215,13 @@
             class="scrollBtn btnLeft"
             onclick="scrollToLeft('rowMoving1')"
           >
-            <
+          <div class="arrow left"></div>
           </button>
           <button
             class="scrollBtn btnRight"
             onclick="scrollToRight('rowMoving1')"
           >
-            >
+          <div class="arrow right"></div>
           </button>
         </div>
       </div>
@@ -254,14 +363,14 @@
             id="btnLeft"
             onclick="scrollToLeft('rowMoving2')"
           >
-            <
+            <div class="arrow left"></div>
           </button>
           <button
             class="scrollBtn"
             id="btnRight"
             onclick="scrollToRight('rowMoving2')"
           >
-            >
+            <div class="arrow right"></div>
           </button>
         </div>
       </div>
@@ -336,14 +445,14 @@
             id="btnLeft"
             onclick="scrollToLeft('rowMoving3')"
           >
-            <
+            <div class="arrow left"></div>
           </button>
           <button
             class="scrollBtn"
             id="btnRight"
             onclick="scrollToRight('rowMoving3')"
           >
-            >
+          <div class="arrow right"></div>
           </button>
         </div>
       </div>

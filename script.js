@@ -28,3 +28,12 @@ function myFunction(idToSelect){
 function onmouseLeave(idToSelect){
   document.getElementById(idToSelect).classList.toggle('show')
 }
+
+
+var input = document.getElementById("searchbar");
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("searchIcon").click();
+  }
+});
