@@ -19,7 +19,7 @@
 
       <!-- Dropdown1 -->
       <div id="buyContent" class="dropdown-content" onmouseleave="onmouseLeave('buyContent')">
-        <div class="text-center border-right info"> 
+        <div class="text-center border-right info navDropdownLeft"> 
           <h5>Homes for sale</h5>
           <ul>
             <li><a href="#">Homes for sale</a></li>
@@ -43,7 +43,7 @@
       
       <!-- Dropdown 2 -->
       <div id="buyContent2" class="dropdown-content" onmouseleave="onmouseLeave('buyContent2')">
-        <div class="text-center border-right info"> 
+        <div class="text-center border-right info navDropdownLeft"> 
           <h5>Rentals</h5>
           <ul>
             <li><a href="#">Rental buildings</a></li>
@@ -68,7 +68,7 @@
         
         <!-- Dropdown 3 -->
         <div id="buyContent3" class="dropdown-content" onmouseleave="onmouseLeave('buyContent3')">
-          <div class="text-center border-right info"> 
+          <div class="text-center border-right info navDropdownLeft"> 
             <h5>Recourses</h5>
             <ul>
               <li><a href="#">Explore your options</a></li>
@@ -85,7 +85,7 @@
           
           <!-- Dropdown 4 -->
           <div id="buyContent4" class="dropdown-content" onmouseleave="onmouseLeave('buyContent4')">
-            <div class="text-center border-right info"> 
+            <div class="text-center border-right info navDropdownLeft"> 
               <h5>Touring homes & making offers</h5>
               <ul>
                 <li><a href="#">Discover Zillow Home Loans</a></li>
@@ -101,7 +101,7 @@
 
       <!-- Dropdown 5 -->
       <div id="buyContent5" class="dropdown-content" onmouseleave="onmouseLeave('buyContent5')">
-        <div class="text-center border-right info"> 
+        <div class="text-center border-right info navDropdownLeft"> 
           <h5>Homes for sale</h5>
           <ul>
             <li><a href="#">Homes for sale</a></li>
@@ -171,11 +171,41 @@
         />
         <h2 id="titleBlue">Zillow</h2>
       </div>
-      <div class="marginRight">
+      <div class="marginRight flex">
         <a href="#" class="marginRight">Manage Rentals</a>
         <a href="#" class="marginRight">Advertise</a>
         <a href="#" class="marginRight">Help</a>
-        <a href="#" class="marginRight">Sign in</a>
+
+        <!-- Sign in -->
+        <div> 
+          <button class="marginRight" id="modalBtn">Sign in</button>
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <button>Sign in</button>
+              <div>
+                <label for="emailInput">Email</label>
+                <input type="email" placeholder="Enter email" id="emailInput">
+              </div>
+              <div>
+                <label for="passwordInput">Email</label>
+                <input type="password" placeholder="Enter password" id="passwordInput">
+              </div>
+              
+              <div id="sign-forgot">
+                <button id="largeSignIn">Sign in</button>
+                <button id="forgotPassword">Forgot your password?</button>
+              </div>
+
+              <div>
+                <p>Or connect with</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Sign in Modal End -->
+
       </div>
     </div>
 
@@ -301,7 +331,7 @@
       </div>
     </div>
 
-    <div class="moreRec">
+    <div class="moreRec" onclick="scrollDown()" id="scrollDownBtn">
       <span>&#8595;</span>
       <h6>More Recommendations</h6>
     </div>
@@ -319,7 +349,7 @@
             Zillow Home Loans can get you pre-approved so you're ready to make
             an offer quickly when you find the right home.
           </p>
-          <button class="fsrBtn">Browse Homes</button>
+          <button class="fsrBtn btn1-2">Browse Homes</button>
         </div>
         <div class="startnowDivs">
           <img
@@ -331,7 +361,7 @@
             No matter what path you take to sell your home, we can help you
             navigate a successful sale.
           </p>
-          <button class="fsrBtn">See your options</button>
+          <button class="fsrBtn btn1-2">See your options</button>
         </div>
         <div class="startnowDivs">
           <img
