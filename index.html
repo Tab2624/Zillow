@@ -184,25 +184,40 @@
           <div class="modalContent">
             <span class="close">&times;</span>
             <h4 class="gapazoid" id="welcomeZillow">Welcome to Zillow</h4>
-            <button class="gapazoid" id="signInInsideModal">Sign in</button>
+            <div class="flex"> 
+              <button class="gapazoid" id="signInInsideModal">Sign in</button>
+              <button id="newAccount">New account</button>
+            </div>
             <div> 
             <div>
-              <label for="emailInput" class="gapazoid">Email</label>
-              <input class="gapazoid" type="email" placeholder="Enter email" id="emailInput">
+              <p class="gapazoid formLabel">Email</p>
+              <input type="email" placeholder="Enter email" id="emailInput" class="formInfo">
             </div>
             <div>
-              <label for="passwordInput" class="gapazoid">Password</label>
-              <input type="password" placeholder="Enter password" id="passwordInput" class="gapazoid">
+              <p class="gapazoid formLabel">Password</p>
+              <input type="password" placeholder="Enter password" id="passwordInput" class="formInfo">
             </div>
             </div>
             
             <div id="sign-forgot" class="gapazoid">
               <button id="largeSignIn">Sign in</button class="gapazoid">
-              <button id="forgotPassword">Forgot your password?</button>
+              <p id="forgotPassword">Forgot your password?</p>
             </div>
-
+            <!-- Connect with -->
             <div>
-              <p>Or connect with</p>
+              <p class="text-center">Or connect with</p>
+              <div class="signinSocials flex" id="appl">
+                <img src="assets/apple.png" alt="Apple Icon" class="modalIcons infomargintop" id="applIcon">
+                <p class="infomargintop">Continue with Apple</p>
+              </div>
+              <div class="signinSocials flex" id="fb">
+                <img src="assets/facebook.png" alt="Facebook Icon" class="modalIcons infomargintop" id="fbIcon">
+                <p class="infomargintop">Continue with Facebook</p>
+              </div>
+              <div class="signinSocials flex" id="goog">
+                <img src="assets/google.png" alt="Google Icon" class="modalIcons infomargintop" id="googIcon">
+                <p class="infomargintop">Continue with Google</p>
+              </div>
             </div>
 
           </div>
